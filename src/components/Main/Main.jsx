@@ -35,21 +35,23 @@ const Main = () => {
                 </div>
                 <div className="cards">
                 <div className="card">
-                    <p>Suggest a beautiful place to see an upcoming road trip</p>
-                    <img src={assets.compass_icon} alt="" />
+                    <p>Code suggestions</p>
+                    <img src={assets.code_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Briefly describe the concept: urbran planning</p>
+                    <p>Search for an idea</p>
                     <img src={assets.bulb_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Brainstorm team bonding activities for our work retreat</p>
+                    <p>Prepare a plan</p>
+                    <img src={assets.compass_icon} alt="" />
+                </div>
+                
+                <div className="card">
+                    <p>Build a note</p>
                     <img src={assets.message_icon} alt="" />
                 </div>
-                <div className="card">
-                    <p>Improve the readability of the following code</p>
-                    <img src={assets.code_icon} alt="" />
-                </div>
+                
             </div></> : <div className="result">
                 <div className="result-title">
                     <img src={assets.user_icon} alt="" />
